@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to bottom, #717f34a5, #717f34a5),
+    url('./image/background.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  padding-top: 30px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+header .cloud {
+  width: 140px;
+  margin-right: 10px;
+}
+
+header .logo {
+  width: 150px;
+}
+header .logo-text {
+  color: #458bf4;
+  font-size: 38px;
+  font-family: sans-serif;
+  transform: translateY(8px);
+  margin-left: 8px;
+}
+
+.box {
+  display: flex;
+  padding: 30px;
+  color: #fff;
+  /* background-color: red; */
+}
+
+.box-2 {
+  background: #435f39;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.image h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.image h4 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.image img {
+  width: 400px;
+}
+.content {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.features {
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.features-1 {
+  border-left: 8px solid #fff;
+}
+.features-2 {
+  border-right: 8px solid #fff;
+}
+
+.features h1 {
+  margin-bottom: 15px;
+}
+.feature {
+  display: flex;
+  margin-bottom: 10px;
+}
+.feature p {
+  font-size: 20px;
+}
+.feature .circle {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #cad16a;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.ellipse {
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  translate: 100px -100px;
+  rotate: 20deg;
+  overflow: hidden;
+}
